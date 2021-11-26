@@ -1,8 +1,11 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import gatsbyPng from '../images/gatsby-icon.png';
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, author }) => {
+
+  return (
   <header
     style={{
       background: `rebeccapurple`,
@@ -24,12 +27,14 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <img src={gatsbyPng} width="100" alt="gatsby png"/>
+          <h1>{author}</h1>
+          <h1>{siteTitle}</h1>
         </Link>
       </h1>
     </div>
   </header>
-)
+)}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
