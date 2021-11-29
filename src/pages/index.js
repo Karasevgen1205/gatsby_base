@@ -7,7 +7,6 @@ import Seo from "../components/seo"
 
 const IndexPage = ({data}) => {
   const {nodes} = data.allMarkdownRemark;
-  // console.log(nodes)
   return (
   <Layout>
     <Seo title="Home" />

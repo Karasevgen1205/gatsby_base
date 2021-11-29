@@ -19,7 +19,6 @@ exports.createPages = async ({ actions, graphql }) => {
       path: `/${category}/${url}`,
       component: require.resolve("./src/templates/single-post.js"),
       context: { url },
-      // defer: true,
     })
   });
 

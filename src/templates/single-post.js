@@ -7,7 +7,7 @@ import {  GatsbyImage, getImage } from "gatsby-plugin-image"
 const SinglePost = ({data}) => {
 
   const {html} = data.markdownRemark;
-  const {category, title, url, image} = data.markdownRemark.frontmatter;
+  const {title, image} = data.markdownRemark.frontmatter;
   const img = getImage(image);
   
   return (
