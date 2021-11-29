@@ -1,7 +1,8 @@
 ---
-title: Ghbtpl
-category: третий
-url: третий
+title: Traveling to USA
+category: USA
+url: Washington
+image: ../images/gatsby-astronaut.png
 ---
 
 # Поездка в Рим

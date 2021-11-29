@@ -595,3 +595,15 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.posts {
+  display: flex;
+  align-items: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  text-align: center;
+}

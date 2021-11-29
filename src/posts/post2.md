@@ -1,7 +1,8 @@
 ---
-title: Путешествие
-category: второй
-url: второй
+title: Traveling to Russia
+category: russia
+url: moscow
+image: ../images/gatsby-astronaut.png
 ---
 
 # Поездка в Залупусан

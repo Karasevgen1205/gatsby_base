@@ -1,7 +1,8 @@
 ---
-title: Путешествие
+title: Traveling to Italy
 category: italy
-url: itali-trip
+url: rim
+image: ../images/gatsby-astronaut.png
 ---
 
 # Поездка в Пусан
